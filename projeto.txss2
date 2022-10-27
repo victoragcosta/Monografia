@@ -1,0 +1,71 @@
+{
+    "InternalPDFViewer": {
+        "Embedded": false,
+        "File": ""
+    },
+    "Session": {
+        "Bookmarks": [
+        ],
+        "CurrentFile": "monografia.bbl",
+        "FileVersion": 1,
+        "Files": [
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "monografia.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 50
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "tex/1_Introducao.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "tex/2_Concluido_TCC1.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "tex/3_Planejamento_TCC2.tex",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "bibliografia.bib",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 0
+            },
+            {
+                "Col": 29,
+                "EditorGroup": 0,
+                "FileName": "UnB-CIC.cls",
+                "FirstLine": 0,
+                "FoldedLines": "",
+                "Line": 141
+            },
+            {
+                "Col": 0,
+                "EditorGroup": 0,
+                "FileName": "monografia.bbl",
+                "FirstLine": 5,
+                "FoldedLines": "",
+                "Line": 32
+            }
+        ],
+        "MasterFile": "monografia.tex"
+    }
+}

@@ -1,0 +1,34 @@
+\section{Motivação}
+
+Em acidentes de trânsito que necessitam de laudo pericial, reconstituir o ocorrido é essencial. Por meio de fragmentos desprendidos, avarias, posição final dos veículos e marcas de frenagem, os peritos determinam a velocidade e a orientação dos veículos na colisão. Entretanto nem sempre os vestígios de interesse da perícia estão presentes no local do acidente. Dentre outros motivos, a falta de vestígios pode ocorrer por alteração da posição dos veículos, ou por uso de um freio ABS que não deixou marcas de frenagem.
+
+Para os veículos que possuem airbag é possível utilizar o módulo \acrfull{ACM}, ele é responsável por ler sensores espalhados pelo veículo e controlar os airbags, mas também realiza o armazenamento das leituras realizadas por esses sensores, o que é extremamente importante para os peritos. Dentre esses dados armazenados pode-se encontrar aceleração, dados de impacto e pressão, velocidade linear e angular. Porém os sensores presentes em cada veículo variam, e os dados armazenados são feitos de forma não padronizada e pouco documentada, o que dificulta muito sua leitura e manipulação \cite{lima_proposta_2016}.
+
+Com o objetivo de fornecer dados importantes para a perícia de forma padronizada, foi criado um projeto de graduação conjunta, orientada pelo Professor e Doutor Ricardo Zelenovsky, tendo como base o proposto por Vinícius Lima em sua dissertação de mestrado \cite{lima_proposta_2016}. O projeto consiste na construção de um dispositivo de baixo custo, que realize o armazenamento de forma não volátil de dados úteis para a perícia. Dados esses que são mensurados por meio de sensores embarcados no próprio dispositivo.
+
+Foi selecionado para este dispositivo, por meio de trabalhos de graduação anteriores, um conjunto de sensores composto por aceleração, giroscópio, magnetômetro e GPS, sendo assim possível entregar aos peritos dados como posição, velocidade, aceleração e inclinação do veículo. O dispositivo funciona de tal forma que é possível identificar o momento da colisão e armazenar os dados antes, durante e após o evento de impacto.
+
+No projeto supracitado, além da criação do próprio dispositivo também é deixado como ideia a criação de um software para a visualização desses dados para o público geral e peritos, como por exemplo um simulador 3D. A este projeto foi dado o nome Caixa Preta, por se assemelhar a funcionalidade de uma caixa preta de avião, entretanto com foco direcionado a carros.
+
+Dado a natureza dos dados capturados pelos sensores do dispositivo é de extrema importância uma boa estimativa de inclinação, pois além de ser um dado muito útil para a perícia, ele é quem torna possível uma boa estimativa de velocidade e posição utilizando o acelerômetro.
+
+Por fim, durante o decorrer das pesquisas bibliográficas surgiu a necessidade de uma plataforma para visualização dos dados, diferente do software já mencionado que possui como foco o uso geral e de peritos, a plataforma em questão possibilitaria uma melhor exploração do funcionamento de cada método de estimativa. Podendo este dashboard ser uma porta de entrada para demais membros que venham a agregar ao projeto Caixa Preta, onde o indivíduo pode além de visualizar e explorar os dados, entender seu funcionamento e cálculos de estimativas. Facilitando também no momento da criação do software de uso geral, uma vez que esta plataforma já terá todos os cálculos desenvolvidos em matlab, bastando sua tradução para outra linguagem ou inserção de uma interface gráfica amigável ao usuário final.
+
+
+\section{Objetivos}
+O presente trabalho tem por finalidade geral agregar ao projeto Caixa Preta indicando um método para estimativa de inclinação a partir de dados de sensores. Sendo 2 os objetivos específicos, criar um painel em matlab para cálculo, visualização e comparação de dados de inclinação utilizando de sensores de giroscópio, acelerômetro e magnetômetro e a seleção de um método de estimação de inclinação por meio da comparação dos métodos com dados em situações diversas.
+
+O painel para visualização dos dados deve ser de fácil uso, manutenção e expansão, contando com documentação do código e manual de uso.
+
+A comparação de métodos deve ser realizada com dados de diversas situações, gerados de forma simulada para maior controle do ambiente, onde possa ser exposto a acurácia, o tempo de convergência e tempo de execução de cada método.
+
+E por fim realizar a indicação de um método de estimativa de inclinação e seus parâmetros de configuração para aplicação no software de uso geral, tendo como principal métrica a acurácia.
+
+\section{Metodologia}
+Tendo em vista o objetivo exploratório deste trabalho, será utilizada metodologia de pesquisa de caráter experimental e bibliográfico, e de natureza aplicada \cite{tumelero_metodologia_2019, garcia_metodologia_nodate}. No contexto do projeto isto significa que, será levantado por meio de artigos métodos de estimativa de inclinação que façam uso dos mesmos dados capturados pela Caixa Preta. Para cada método encontrado e compreendido, deverá ser implementado sua versão no matlab, construindo assim um dashboard com diversas visualizações. Durante a construção do painel, deve-se sempre ser levando em consideração a facilidade de uso do dashboard para alternar e comparar os métodos, permitindo selecionar os métodos e parâmetros que se deseja utilizar na simulação.
+
+Uma vez construído o dashboard e compreendida as nuances de cada método, o projeto segue para uma segunda etapa na qual serão gerados dados de entrada. Os dados serão gerados por meio de um software que deverá ser construído junto ao dashboard, entregando dados com e sem ruídos para comparação dos métodos.
+
+Na terceira etapa será realizado o ajuste dos parâmetros dos métodos de forma empírica, objetivando se aproximar ao máximo dos valores base utilizados na geração dos dados. Na quarta e última etapa será realizada a comparação dos métodos de forma quantitativa e qualitativa. Tendo como métricas principais o tempo de execução, tempo de convergência e acurácia. 
+
+Para a comparação de métodos será usado como base comparativa, o dado sem ruído retornado pelo gerador de dados. Também será medido a capacidade do método em remover o vetor gravitacional dos dados do acelerômetro com o corpo em repouso.

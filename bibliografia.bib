@@ -1,0 +1,751 @@
+
+@misc{ozyagcilar_implementing_2015,
+	title = {Implementing a {Tilt}-{Compensated} {eCompass} using {Accelerometer} and {Magnetometer} {Sensors}},
+	language = {en},
+	author = {Ozyagcilar, Talat},
+	month = nov,
+	year = {2015},
+	annote = {Errado, a matriz de rotação Rx, Ry e Rz estão invertidas. Logo, a multiplicação inversa das inversas é o mesmo que multiplicar  ZYX},
+	file = {Ozyagcilar - Implementing a Tilt-Compensated eCompass using Acc.pdf:C\:\\Users\\victo\\Zotero\\storage\\FXG7EBC9\\Ozyagcilar - Implementing a Tilt-Compensated eCompass using Acc.pdf:application/pdf},
+}
+
+@misc{noauthor_what_2018,
+	title = {What is {IMU}? {Inertial} {Measurement} {Unit} {Working} {\textbar} {Arrow}.com},
+	shorttitle = {What is {IMU}?},
+	url = {https://www.arrow.com/en/research-and-events/articles/imu-principles-and-applications},
+	abstract = {IMUs (inertial measurement units) measure device movement such as speed, direction, angular rate \& more. Discover how they work and how they’re used.},
+	language = {en},
+	urldate = {2021-04-19},
+	journal = {Arrow.com},
+	month = dec,
+	year = {2018},
+	file = {Snapshot:C\:\\Users\\victo\\Zotero\\storage\\4Z5QCLQC\\imu-principles-and-applications.html:text/html},
+}
+
+@misc{madgwick_ecient_2010,
+	title = {An eﬃcient orientation ﬁlter for inertial and inertial/magnetic sensor arrays},
+	abstract = {This report presents a novel orientation ﬁlter applicable to IMUs consisting of tri-axis gyroscopes and accelerometers, and MARG sensor arrays that also include tri-axis magnetometers. The MARG implementation incorporates magnetic distortion and gyroscope bias drift compensation. The ﬁlter uses a quaternion representation, allowing accelerometer and magnetometer data to be used in an analytically derived and optimised gradient-descent algorithm to compute the direction of the gyroscope measurement error as a quaternion derivative. The beneﬁts of the ﬁlter include: (1) computationally inexpensive; requiring 109 (IMU) or 277 (MARG) scalar arithmetic operations each ﬁlter update, (2) eﬀective at low sampling rates; e.g. 10 Hz, and (3) contains 1 (IMU) or 2 (MARG) adjustable parameters deﬁned by observable system characteristics. Performance was evaluated empirically using a commercially available orientation sensor and reference measurements of orientation obtained using an optical measurement system. A simple calibration method is presented for the use of the optical measurement equipment in this application. Performance was also benchmarked against the propriety Kalman-based algorithm of orientation sensor. Results indicate the ﬁlter achieves levels of accuracy exceeding that of the Kalman-based algorithm; {\textless} 0.6◦ static RMS error, {\textless} 0.8◦ dynamic RMS error. The implications of the low computational load and ability to operate at low sampling rates open new opportunities for the use of IMU and MARG sensor arrays in real-time applications of limited power or processing resources or applications that demand extremely high sampling rates.},
+	language = {en},
+	author = {Madgwick, Sebastian O H},
+	month = apr,
+	year = {2010},
+	file = {Madgwick - An eﬃcient orientation ﬁlter for inertial and iner.pdf:C\:\\Users\\victo\\Zotero\\storage\\BX79TN6D\\Madgwick - An eﬃcient orientation ﬁlter for inertial and iner.pdf:application/pdf},
+}
+
+@inproceedings{ferdinando_embedded_2012,
+	title = {Embedded {Kalman} {Filter} for {Inertial} {Measurement} {Unit} ({IMU}) on the {ATMega8535}},
+	isbn = {978-1-4673-1446-6},
+	doi = {10.1109/INISTA.2012.6246978},
+	abstract = {The Kalman Filter is very useful in prediction and estimation. In this paper, the Kalman Filter is implemented for Inertial Measurement Unit (IMU) on the ATMega8535. The sensors used in this system are accelerometer MMA7260QT and gyroscope GS-12. The system chooses the arbitrary sampling time and then it is evaluated for possible using smaller value. As the Kalman Filter operation needs matrix calculation, the formula is converted into several ordinary equations. The parameter being investigated in this paper is measurement covariance matrix. This parameter influences the way the Kalman Filter responses to noise. Bigger value makes the Kalman Filter less sensitive to noise and the estimation is too smooth, thus it does not give real angle estimation. Using smaller value makes the Kalman Filter more sensitive to noise. This makes the estimated angle still suffers from noise and it is likely that the Kalman Filter is useless. This paper recommends 0.0001 to 0.001 for the measurement covariance noise parameter. This paper also recommended a pipeline configuration if the control algorithm needs more space in a sampling time.},
+	author = {Ferdinando, Hany and Khoswanto, Handry and Purwanto, Djoko},
+	month = jul,
+	year = {2012},
+	file = {Full Text PDF:C\:\\Users\\victo\\Zotero\\storage\\3M6N5D55\\Ferdinando et al. - 2012 - Embedded Kalman Filter for Inertial Measurement Un.pdf:application/pdf},
+}
+
+@misc{noauthor_magnetic_2018,
+	title = {Magnetic {Dip} - {SKYbrary} {Aviation} {Safety}},
+	url = {https://www.skybrary.aero/index.php/Magnetic_Dip},
+	urldate = {2021-04-19},
+	month = may,
+	year = {2018},
+	file = {Magnetic Dip - SKYbrary Aviation Safety:C\:\\Users\\victo\\Zotero\\storage\\SQDHR7RM\\Magnetic_Dip.html:text/html},
+}
+
+@misc{pedley_tilt_2013,
+	title = {Tilt {Sensing} {Using} a {Three}-{Axis} {Accelerometer}},
+	language = {en},
+	author = {Pedley, Mark},
+	month = mar,
+	year = {2013},
+	annote = {Errado, as ordens xyz estão todas trocadas, inclusive a matriz de rotação},
+	file = {Pedley - Tilt Sensing Using a Three-Axis Accelerometer.pdf:C\:\\Users\\victo\\Zotero\\storage\\R96ZEK6R\\Pedley - Tilt Sensing Using a Three-Axis Accelerometer.pdf:application/pdf},
+}
+
+@phdthesis{ramos_proposta_2017,
+	title = {{PROPOSTA} {DE} {PLATAFORMA} {INERCIAL} {E} {SIMULADOR} {3D} {PARA} {PERICIAR} {ACIDENTES} {DE} {TRÂNSITO}},
+	language = {pt},
+	school = {Universidade de Brasília},
+	author = {Ramos, Hudson Pereira and Lucena, Vanessa Oliveira},
+	year = {2017},
+	file = {Ramos e Lucena - PROPOSTA DE PLATAFORMA INERCIAL E SIMULADOR 3D PAR.pdf:C\:\\Users\\victo\\Zotero\\storage\\P5T28RUL\\Ramos e Lucena - PROPOSTA DE PLATAFORMA INERCIAL E SIMULADOR 3D PAR.pdf:application/pdf},
+}
+
+@phdthesis{lima_proposta_2016,
+	title = {{PROPOSTA} {DE} {PLATAFORMA} {INERCIAL} {PARA} {AUXILIAR} {NA} {PERÍCIA} {DE} {ACIDENTES} {DE} {TRÂNSITO}},
+	language = {pt},
+	school = {Universidade de Brasília},
+	author = {Lima, Vinícius de Oliveira},
+	month = dec,
+	year = {2016},
+	file = {Lima - PROPOSTA DE PLATAFORMA INERCIAL PARA AUXILIAR NA P.pdf:C\:\\Users\\victo\\Zotero\\storage\\BYYJWK9I\\Lima - PROPOSTA DE PLATAFORMA INERCIAL PARA AUXILIAR NA P.pdf:application/pdf},
+}
+
+@misc{ben-ari_tutorial_2014,
+	title = {A {Tutorial} on {Euler} {Angles} and {Quaternions}},
+	language = {en},
+	author = {Ben-Ari, Moti},
+	year = {2014},
+	file = {Ben-Ari - A Tutorial on Euler Angles and Quaternions.pdf:C\:\\Users\\victo\\Zotero\\storage\\J9FHM3WU\\Ben-Ari - A Tutorial on Euler Angles and Quaternions.pdf:application/pdf},
+}
+
+@misc{eberly_euler_2020,
+	title = {Euler {Angle} {Formulas}},
+	language = {en},
+	author = {Eberly, David},
+	month = apr,
+	year = {2020},
+	file = {Eberly - Euler Angle Formulas.pdf:C\:\\Users\\victo\\Zotero\\storage\\2DN4VW3X\\Eberly - Euler Angle Formulas.pdf:application/pdf},
+}
+
+@misc{woolfrey_rotations_2018,
+	title = {Rotations in {3D}},
+	url = {https://www.youtube.com/watch?v=wg9bI8-Qx2Q},
+	abstract = {Rotação matricial em 3D, desenvolvimento matemático},
+	urldate = {2020-11-23},
+	author = {Woolfrey, Jon},
+	month = aug,
+	year = {2018},
+}
+
+@misc{winer_simple_2017,
+	title = {Simple and {Effective} {Magnetometer} {Calibration}},
+	url = {https://github.com/kriswiner/MPU6050},
+	abstract = {Basic MPU6050 Arduino sketch of sensor function. Contribute to kriswiner/MPU6050 development by creating an account on GitHub.},
+	language = {en},
+	urldate = {2020-11-23},
+	journal = {GitHub},
+	author = {Winer, Kris},
+	month = aug,
+	year = {2017},
+	keywords = {To read - José},
+	file = {Snapshot:C\:\\Users\\victo\\Zotero\\storage\\YKM4HBBJ\\Simple-and-Effective-Magnetometer-Calibration.html:text/html},
+}
+
+@misc{invensense_mpu-9250_2016,
+	title = {{MPU}-9250 {Product} {Specification}},
+	author = {{Invensense}},
+	month = jun,
+	year = {2016},
+	file = {Invensense - 2016 - MPU-9250 Product Specification.pdf:C\:\\Users\\victo\\Zotero\\storage\\FSD7G26A\\Invensense - 2016 - MPU-9250 Product Specification.pdf:application/pdf},
+}
+
+@misc{nedelkovski_mems_2015,
+	title = {{MEMS} {Accelerometer} {Gyroscope} {Magnetometer} e {Arduino}},
+	url = {https://howtomechatronics.com/how-it-works/electrical-engineering/mems-accelerometer-gyrocope-magnetometer-arduino/},
+	abstract = {In this article we will learn how the MEMS accelerometer, gyroscope and magnetometer work and how to use them with the Arduino Board. MEMS accelerometer...},
+	language = {en-US},
+	urldate = {2021-01-11},
+	journal = {HowToMechatronics},
+	author = {Nedelkovski, Dejan},
+	month = nov,
+	year = {2015},
+	file = {Snapshot:C\:\\Users\\victo\\Zotero\\storage\\WCT3WPB4\\mems-accelerometer-gyrocope-magnetometer-arduino.html:text/html},
+}
+
+@misc{suhanko_acelerometro_2015,
+	title = {Acelerômetro, giroscópio, bússola, altímetro, barômetro - {IMU}},
+	url = {https://www.dobitaobyte.com.br/acelerometro-giroscopio-bussola-altimetro-barometro-imu/},
+	abstract = {IMU – ou Inertial Measurement Unit – é um dispositivo que agregue 2 ou mais...},
+	language = {pt-BR},
+	urldate = {2021-04-19},
+	journal = {Do bit Ao Byte},
+	author = {Suhanko, Djames},
+	month = dec,
+	year = {2015},
+	file = {Snapshot:C\:\\Users\\victo\\Zotero\\storage\\BFA7RK9F\\acelerometro-giroscopio-bussola-altimetro-barometro-imu.html:text/html},
+}
+
+@article{garcia_metodologia_2015,
+	title = {{METODOLOGIA} {DA} {PESQUISA} {CIENTÍFICA}: {ORGANIZAÇÃO} {ESTRUTURAL} {E} {OS} {DESAFIOS} {PARA} {REDIGIR} {O} {TRABALHO} {DE} {CONCLUSÃO}},
+	abstract = {One of the biggest challenges for the academicals students is mastering the methodologies used to development of scientific work. The scientific project´s relevance to be achieved requires that students understand and become familiar with the appropriated work structure to be done. Thus it will be necessary that student leave your comfort zone and transit within the “ways of knowing” using scientific instruments to reach academic originality. The purpose of this work was to clarify doubts regarding the research project structure process and to address several methodologies used in scientific research. Herein the methodology used was exploratory plus qualitative analysis. The results obtained serve as support in the intellectual student development process, besides being a tool for standardization of scientific documents.},
+	language = {pt},
+	author = {Garcia, Fabíola Silva},
+	month = jul,
+	year = {2015},
+	file = {Garcia - METODOLOGIA DA PESQUISA CIENTÍFICA ORGANIZAÇÃO ES.pdf:C\:\\Users\\victo\\Zotero\\storage\\D5U3BR4N\\Garcia - METODOLOGIA DA PESQUISA CIENTÍFICA ORGANIZAÇÃO ES.pdf:application/pdf},
+}
+
+@inproceedings{euston_complementary_2008,
+	address = {Nice},
+	title = {A complementary filter for attitude estimation of a fixed-wing {UAV}},
+	isbn = {978-1-4244-2057-5 978-1-4244-2058-2},
+	url = {http://ieeexplore.ieee.org/document/4650766/},
+	doi = {10.1109/IROS.2008.4650766},
+	abstract = {This paper considers the question of using a nonlinear complementary ﬁlter for attitude estimation of ﬁxed-wing unmanned aerial vehicle (UAV) given only measurements from a low-cost inertial measurement unit. A nonlinear complementary ﬁlter is proposed that combines accelerometer output for low frequency attitude estimation with integrated gyrometer output for high frequency estimation. The raw accelerometer output includes a component for the airframe acceleration, that occurs primarily as the aircraft turns, as well as the gravitational acceleration that is required for the ﬁlter. The airframe acceleration is estimated using a simple centripetal force model (based on additional airspeed measurements), augmented by a ﬁrst order dynamic model for angle-of-attack, and used to obtain estimates of the gravitational direction independent of the airplane manoeuvres. Experimental results are provided on a real-world data set and the performance of the ﬁlter is evaluated against the output from a full GPS/INS that was available for the data set.},
+	language = {en},
+	urldate = {2021-04-21},
+	booktitle = {2008 {IEEE}/{RSJ} {International} {Conference} on {Intelligent} {Robots} and {Systems}},
+	publisher = {IEEE},
+	author = {Euston, M. and Coote, P. and Mahony, R. and {Jonghyuk Kim} and Hamel, T.},
+	month = sep,
+	year = {2008},
+	keywords = {To read - José},
+	pages = {340--345},
+	file = {Euston et al. - 2008 - A complementary filter for attitude estimation of .pdf:C\:\\Users\\victo\\Zotero\\storage\\NM9PWRWG\\Euston et al. - 2008 - A complementary filter for attitude estimation of .pdf:application/pdf},
+}
+
+@article{yang_95_2016,
+	title = {95. {Integration} on acceleration signals by adjusting with envelopes},
+	volume = {4},
+	abstract = {Direct integration of acceleration often causes unrealistic drifts in velocity and displacement. A method of integration on acceleration data to acquire realistic velocity and displacement is proposed. In this approach, drifts are estimated by using the mean of the upper and lower envelopes of signals after integration from acceleration into velocity and displacement. The experimental results obtained by using simulated data and real world signals are presented to demonstrate the effectiveness of the method.},
+	language = {en},
+	number = {2},
+	author = {Yang, Yanli and Zhao, Yanfei and Kang, Dali},
+	year = {2016},
+	pages = {5},
+	file = {Yang et al. - 2016 - 95. Integration on acceleration signals by adjusti.pdf:C\:\\Users\\victo\\Zotero\\storage\\WL95Z7QH\\Yang et al. - 2016 - 95. Integration on acceleration signals by adjusti.pdf:application/pdf},
+}
+
+@misc{noauthor_what_nodate,
+	title = {What is an inertial measurement unit},
+	url = {https://www.vectornav.com/resources/what-is-an-imu},
+	urldate = {2021-04-19},
+	file = {What is an inertial measurement unit:C\:\\Users\\victo\\Zotero\\storage\\PK66RDBZ\\what-is-an-imu.html:text/html},
+}
+
+@misc{noauthor_what_2015,
+	title = {What is an {IMU}?},
+	url = {https://navigationsensors.com/imu/},
+	abstract = {An Inertial Measurement Unit, commonly known as an IMU, is an electronic device that measures and reports orientation, velocity, and gravitational forces.},
+	language = {en-US},
+	urldate = {2021-04-19},
+	journal = {Sparton},
+	month = sep,
+	year = {2015},
+	file = {Snapshot:C\:\\Users\\victo\\Zotero\\storage\\Z88W98KA\\imu.html:text/html},
+}
+
+@misc{prof_adriano_dos_santos_4_2012,
+	title = {4 {EFEITO} {HALL}.avi},
+	url = {https://www.youtube.com/watch?v=bHo6_jltfc8},
+	abstract = {Este vídeo é parte do Trabalho de Conclusão de Curso apresentado à Universidade do Vale do Rio dos Sinos -- UNISINOS, como requisito parcial para a obtenção do título de Licenciado em Física.
+	Produzido por: Adriano dos Santos
+	Programa: Blender3d
+	Música: Arpology 2. Composição: Longzijun
+	
+	Você pode assistir em Alta definição.},
+	urldate = {2021-04-15},
+	author = {{Prof. Adriano dos Santos}},
+	month = jun,
+	year = {2012},
+}
+
+@book{farias_algebra_2020,
+	title = {Algebra linear},
+	author = {Farias, Diego M. and Konzen, Pedro H. A. and Souza, Rafael R.},
+	month = aug,
+	year = {2020},
+	file = {livro.pdf:C\:\\Users\\victo\\Zotero\\storage\\UNFZ6JAE\\livro.pdf:application/pdf},
+}
+
+@misc{noauthor_learn_nodate,
+	title = {Learn more about magnetometer models and {HSI} calibration.},
+	url = {https://www.vectornav.com/resources/magnetometer-errors-calibration},
+	urldate = {2021-03-20},
+	file = {Learn more about magnetometer models and HSI calibration.:C\:\\Users\\victo\\Zotero\\storage\\WX9U6NCW\\magnetometer-errors-calibration.html:text/html},
+}
+
+@misc{sanket_madgwick_nodate,
+	title = {Madgwick {Filter}},
+	url = {https://nitinjsanket.github.io/tutorials/attitudeest/madgwick},
+	abstract = {tutorial resumido},
+	urldate = {2020-11-23},
+	author = {Sanket, Nitin},
+	file = {Personal:C\:\\Users\\victo\\Zotero\\storage\\62HTH2UI\\madgwick.html:text/html},
+}
+
+@misc{tumelero_metodologia_2019,
+	title = {Metodologia de pesquisa: guia rápido de possibilidades},
+	shorttitle = {Metodologia de pesquisa},
+	url = {https://blog.mettzer.com/metodologia-de-pesquisa/},
+	abstract = {O conceito de metodologia se refere a uma série de métodos e técnicas que são seguidos para o atingimento do objetivo da pesquisa. Veja este guia rápido!},
+	language = {pt-BR},
+	urldate = {2021-01-30},
+	journal = {Blog do Mettzer},
+	author = {Tumelero, Naína},
+	month = sep,
+	year = {2019},
+	file = {Snapshot:C\:\\Users\\victo\\Zotero\\storage\\ELZ46YF3\\metodologia-de-pesquisa.html:text/html},
+}
+
+@article{lopes_caixa_2018,
+	title = {Caixa {Preta} para {Veículos} {Automotivos}},
+	language = {pt},
+	author = {Lopes, Gabriela da Silva},
+	year = {2018},
+	pages = {117},
+	file = {Caixa Preta para Veículos Automotivos.pdf:C\:\\Users\\victo\\Zotero\\storage\\5VIYTV2N\\Caixa Preta para Veículos Automotivos.pdf:application/pdf},
+}
+
+@inproceedings{robertson_simultaneous_2009,
+	title = {Simultaneous {Localization} and {Mapping} for {Pedestrians} using only {Foot}-{Mounted} {Inertial} {Sensors}},
+	isbn = {978-1-60558-431-7},
+	doi = {10.1145/1620545.1620560},
+	abstract = {In this paper we describe a new Bayesian estimation approach for simultaneous mapping and localization for pedestrians
+	based on odometry with foot mounted inertial sensors.
+	When somebody walks within a constrained area such as
+	a building, then even noisy and drift-prone odometry measurements can give us information about features like turns,
+	doors, and walls, which we can use to build a form of a map
+	of the explored area, especially when these features are revisited over time. Our initial results for our novel scheme
+	which we call “FootSLAM” are very surprising in that true
+	SLAM with stable relative positioning accuracy of 1-2 meters
+	for pedestrians is indeed possible based on inertial sensors
+	alone without any prior known building indoor layout.
+	Furthermore, the 2D maps obtained even for just 10 minutes
+	of walking converge to a good approximation of the true
+	layout forming the basis for future automated collaborative
+	mapping of buildings.},
+	author = {Robertson, Patrick and Angermann, Michael and Krach, Bernhard},
+	month = sep,
+	year = {2009},
+	keywords = {To read - José},
+	file = {Full Text PDF:C\:\\Users\\victo\\Zotero\\storage\\SD8AMD56\\Robertson et al. - 2009 - Simultaneous Localization and Mapping for Pedestri.pdf:application/pdf},
+}
+
+@article{neto_kalman_2015,
+	title = {Kalman filter-based yaw angle estimation by fusing inertial and magnetic sensing: a case study using low cost sensors},
+	volume = {35},
+	shorttitle = {Kalman filter-based yaw angle estimation by fusing inertial and magnetic sensing},
+	doi = {10.1108/SR-10-2014-0723},
+	abstract = {Purpose ? The purpose of this paper is to achieve reliable estimation of yaw angles by fusing data from low-cost inertial and magnetic sensing. Design/methodology/approach ? In this paper, yaw angle is estimated by fusing inertial and magnetic sensing from a digital compass and a gyroscope, respectively. A Kalman filter estimates the error produced by the gyroscope. Findings ? Drift effect produced by the gyroscope is significantly reduced and, at the same time, the system has the ability to react quickly to orientation changes. The system combines the best of each sensor, the stability of the magnetic sensor and the fast response of the inertial sensor. Research limitations/implications ? The system does not present a stable behavior in the presence of large vibrations. Considerable calibration efforts are needed. Practical implications ? Today, most of human?robot interaction technologies need to have the ability to estimate orientation, especially yaw angle, from small-sized and low-cost sensors. Or},
+	journal = {Sensor Review},
+	author = {Neto, Pedro},
+	month = jun,
+	year = {2015},
+	keywords = {To read - José},
+	pages = {244--250},
+	file = {Full Text PDF:C\:\\Users\\victo\\Zotero\\storage\\9SC2A2NM\\Neto - 2015 - Kalman filter-based yaw angle estimation by fusing.pdf:application/pdf},
+}
+
+@article{oliveira_implementacao_2017,
+	title = {Implementação em c: filtro de kalman, fusão de sensores para determinação de ângulos},
+	volume = {5},
+	shorttitle = {Implementação em c},
+	doi = {10.29069/forscience.2017v5n3.e287},
+	journal = {ForScience},
+	author = {Oliveira, Waldri and Goncalves, Eduardo},
+	month = nov,
+	year = {2017},
+	keywords = {To read - José},
+	file = {Full Text PDF:C\:\\Users\\victo\\Zotero\\storage\\MWUK2GYB\\Oliveira e Goncalves - 2017 - Implementação em c filtro de kalman, fusão de sen.pdf:application/pdf},
+}
+
+@article{li_heading_2016,
+	title = {Heading {Estimation} with {Real}-time {Compensation} {Based} on {Kalman} {Filter} {Algorithm} for an {Indoor} {Positioning} {System}},
+	volume = {5},
+	copyright = {http://creativecommons.org/licenses/by/3.0/},
+	url = {https://www.mdpi.com/2220-9964/5/6/98},
+	doi = {10.3390/ijgi5060098},
+	abstract = {The problem of heading drift error using only low cost Micro-Electro-Mechanical (MEMS) Inertial-Measurement-Unit (IMU) has not been well solved. In this paper, a heading estimation method with real-time compensation based on Kalman filter has been proposed, abbreviated as KHD. For the KHD method, a unified heading error model is established for various predictable errors in magnetic compass for pedestrian navigation, and an effective method for solving the model parameters is proposed in the indoor environment with regular structure. In addition, error model parameters are solved by Kalman filtering algorithm with building geometry information in order to achieve real-time heading compensation. The experimental results show that the KHD method can not only effectively correct the original heading information, but also effectively inhibit the accumulation effect of positioning errors. The performance observed in a field experiment performed on the fourth floor of the School of Environmental Science and Spatial Informatics (SESSI) building on the China University of Mining and Technology (CUMT) campus confirms that apply KHD method to PDR(Pedestrian Dead Reckoning) algorithm can reliably achieve meter-level positioning using a low cost MEMS IMU only.},
+	language = {en},
+	number = {6},
+	urldate = {2020-11-23},
+	journal = {ISPRS International Journal of Geo-Information},
+	author = {Li, Xin and Wang, Jian and Liu, Chunyan},
+	month = jun,
+	year = {2016},
+	note = {Number: 6
+	Publisher: Multidisciplinary Digital Publishing Institute},
+	keywords = {To read - José},
+	pages = {98},
+	file = {Full Text PDF:C\:\\Users\\victo\\Zotero\\storage\\FGCNVPZ4\\Li et al. - 2016 - Heading Estimation with Real-time Compensation Bas.pdf:application/pdf;Snapshot:C\:\\Users\\victo\\Zotero\\storage\\CHNR8HPN\\98.html:text/html;Snapshot:C\:\\Users\\victo\\Zotero\\storage\\Y8RS3EQF\\98.html:text/html},
+}
+
+@article{setoodeh_attitude_2004,
+	title = {Attitude {Estimation} {By} {Separate}-{Bias} {Kalman} {Filter}-{Based} {Data} {Fusion}},
+	volume = {57},
+	doi = {10.1017/S037346330400270X},
+	abstract = {Attitude estimation systems often use two or more different sensors to increase reliability and accuracy. Although gyroscopes do not have problems like limited range, interference, and line of sight obscuration, they suffer from slow drift. On the other hand, inclinometers are drift-free but they are sensitive to transverse accelerations and have slow dynamics. This paper presents an extended Kalman filter (EKF)-based data fusion algorithm which utilizes the complementary noise profiles of these two types of sensors to extend their limits. To avoid complexities of dynamic modelling of the platform and its interaction with the environment, gyro modelling will be used to implement indirect (error state) form of the Kalman filter. The great advantage of this approach is its independence from the structure of the platform and its applicability to any system with a similar set of sensors. Separate bias formulation of the Kalman filter will be used to reduce the computational complexity of the algorithm. In addition, a systematic approach based on wavelet decomposition will be util-ized to estimate noise covariances used in the Kalman filter formulation. This approach solves many of the convergence problems encountered in the implementation of EKF due to the choice of covariance matrices. Experimental implementation of the estimator shows the excellent performance of the filter. K E Y W O R D S 1. Attitude Estimation. 2. Extended Kalman Filter (EKF). 3. Strapdown Inertial Navigation System (INS). 4. Wavelet. 1. I N T R O D U C T I O N. Attitude estimation is applied in such diverse fields as vehicle navigation, robotics, virtual environments, surveillance, monitoring and so on. Methods of sensing attitude can be categorized on the basis of the reference system with respect to which the orientation is determined (Doeblin, 1990) : ' Inertial reference sensing. ' Gravity reference sensing. ' Magnetic reference sensing.},
+	journal = {Journal of Navigation - J NAVIG},
+	author = {Setoodeh, Peyman and Khayatian, Alireza and Farjah, Ebrahim},
+	month = may,
+	year = {2004},
+	keywords = {To read - José},
+	file = {Full Text PDF:C\:\\Users\\victo\\Zotero\\storage\\S4AZ9GCD\\Setoodeh et al. - 2004 - Attitude Estimation By Separate-Bias Kalman Filter.pdf:application/pdf},
+}
+
+@inproceedings{afzal_assessment_2010,
+	title = {Assessment of indoor magnetic field anomalies using multiple magnetometers},
+	author = {Afzal, Muhammad and Renaudin, Valérie and Lachapelle, Gérard},
+	month = jan,
+	year = {2010},
+	keywords = {To read - José},
+	pages = {525--533},
+	file = {Full Text PDF:C\:\\Users\\victo\\Zotero\\storage\\AJEADNPT\\Afzal et al. - 2010 - Assessment of indoor magnetic field anomalies usin.pdf:application/pdf},
+}
+
+@article{wang_new_2005,
+	title = {A new magnetic compass calibration algorithm using neural networks},
+	volume = {17},
+	doi = {10.1088/0957-0233/17/1/025},
+	abstract = {The magnetic compass can provide heading direction by measuring the Earth's magnetic field. In practical applications, there usually exists an unwanted local magnetic field that will distort the magnetometer measurements; hence a calibration procedure is essential. Current calibration methods are limited by the inaccurate magnetometer error estimation when measurements are deteriorated by magnetic disturbances or large noises. This paper proposes a new compass calibration algorithm via modelling the nonlinear relationship between the compass heading and the true heading using neural networks. When an external heading reference is available, neural networks can be trained to properly model this nonlinear input–output pattern even in the presence of magnetic disturbances, and subsequently can be applied to convert the compass heading into the correct heading. The proposed algorithm does not require declination information and magnetometer biases and scale factor estimation. The simulation and field test results have verified the effectiveness and robustness of the proposed calibration method and have also shown that the calibration performance is proportional to the quality of the training data.},
+	journal = {Measurement Science and Technology},
+	author = {Wang, Jau-Hsiung and Gao, Yang},
+	month = dec,
+	year = {2005},
+	keywords = {To read - José},
+	pages = {153},
+	file = {Full Text PDF:C\:\\Users\\victo\\Zotero\\storage\\RWQNVE54\\Wang e Gao - 2005 - A new magnetic compass calibration algorithm using.pdf:application/pdf},
+}
+
+@misc{zelenovsky_nota_2020,
+	title = {Nota: {Explicando} {Madgwick}},
+	author = {Zelenovsky, Ricardo},
+	year = {2020},
+	file = {Nota Explicando Madgwick.pdf:C\:\\Users\\victo\\Zotero\\storage\\8WNSVZP7\\Nota Explicando Madgwick.pdf:application/pdf},
+}
+
+@misc{zelenovsky_arduino_2020,
+	title = {Arduino embarcado em um carro},
+	author = {Zelenovsky, Ricardo},
+	month = jan,
+	year = {2020},
+	file = {Zelenovsky - 2020 - Arduino embarcado em um carro.pdf:C\:\\Users\\victo\\Zotero\\storage\\CENUP9KZ\\Zelenovsky - 2020 - Arduino embarcado em um carro.pdf:application/pdf},
+}
+
+@misc{noauthor_magnetic_nodate,
+	title = {Magnetic {Declination} in {Brasília}, {Brazil}},
+	url = {https://www.magnetic-declination.com/Brazil/Bras%C3%ADlia/276944.html},
+	abstract = {Magnetic declination in Brasília, Brazil is -21.02. To instantly determine the magnetic declination at your location, go to magnetic-declination.com},
+	language = {en},
+	urldate = {2020-11-23},
+	journal = {What is the Magnetic Declination at your location?},
+	file = {Snapshot:C\:\\Users\\victo\\Zotero\\storage\\2FF8894P\\276944.html:text/html},
+}
+
+@misc{bleything_how_nodate,
+	title = {How to {Convert} {Magnetometer} {Data} into {Compass} {Heading} – {Digilent} {Blog}},
+	url = {https://blog.digilentinc.com/how-to-convert-magnetometer-data-into-compass-heading/},
+	language = {en-US},
+	urldate = {2020-11-23},
+	author = {Bleything, Talesa},
+	file = {Snapshot:C\:\\Users\\victo\\Zotero\\storage\\7DHTXVKK\\how-to-convert-magnetometer-data-into-compass-heading.html:text/html},
+}
+
+@article{machado_sistema_nodate,
+	title = {{SISTEMA} {DE} {NAVEGAÇÃO} {INERCIAL} {BASEADO} {EM} {IMU}},
+	abstract = {Usando MPU9520 e plotando em 3D no matlab. Definindo orientação e posição},
+	language = {pt},
+	author = {Machado, Vitor Hugo Romão and Júnio, Kaio Gonçalves and Faria, Gabriel},
+	pages = {5},
+	file = {Machado e Júnio - SISTEMA DE NAVEGAÇÃO INERCIAL BASEADO EM IMU.pdf:C\:\\Users\\victo\\Zotero\\storage\\52UMXZUD\\Machado e Júnio - SISTEMA DE NAVEGAÇÃO INERCIAL BASEADO EM IMU.pdf:application/pdf},
+}
+
+@misc{noauthor_open_nodate,
+	title = {Open source {IMU} and {AHRS} algorithms – x-io {Technologies}},
+	url = {https://x-io.co.uk/open-source-imu-and-ahrs-algorithms/},
+	abstract = {madgwick Algoritmos},
+	language = {en-GB},
+	urldate = {2020-11-23},
+	file = {Snapshot:C\:\\Users\\victo\\Zotero\\storage\\RQEQ44G7\\open-source-imu-and-ahrs-algorithms.html:text/html},
+}
+
+@misc{matlab_understanding_2017,
+	title = {Understanding {Kalman} {Filters}, {Part} 1: {Why} {Use} {Kalman} {Filters}?},
+	shorttitle = {Understanding {Kalman} {Filters}, {Part} 1},
+	url = {https://www.youtube.com/watch?v=mwn8xhgNpFY},
+	abstract = {Discover common uses of Kalman filters by walking through some examples. A Kalman filter is an optimal estimation algorithm used to estimate states of a system from indirect and uncertain measurements.
+	- Download examples and code - Design and Simulate Kalman Filter Algorithms: https://bit.ly/2Iq8Hks
+	
+	Design and use Kalman filters in MATLAB and Simulink: https://goo.gl/SVA9IK
+	
+	Kalman Filter Design Example: https://bit.ly/38VFY2X
+	
+	This 56-year-old algorithm is key to space travel, GPS, VR and more: https://goo.gl/l2WImv
+	Watch other MATLAB Tech Talks: https://goo.gl/jD0uOH
+	
+	Get a free product trial: https://goo.gl/C2Y9A5
+	
+	In the first example, you’re going to see how a Kalman filter can be used to estimate the state of a system (the internal temperature of a combustion chamber) from an indirect measurement (the external temperature of the combustion chamber). 
+	
+	The second example demonstrates another common use of Kalman filters, in which you can optimally estimate the state of a system (e.g., the position of a car) by fusing measurements from multiple sources (e.g., an inertial measurement unit (IMU), an odometer, and a GPS receiver) in the presence of noisy measurements.},
+	urldate = {2020-11-23},
+	author = {{MATLAB}},
+	month = jan,
+	year = {2017},
+}
+
+@misc{kelly_kalman_2017,
+	title = {Kalman {Filter} for {6DOF} {IMU} {Implementation}},
+	url = {https://www.youtube.com/watch?v=Os6V1lnUPZo},
+	abstract = {This video series presents a brief, simple implementation of a Kalman filter for estimating angles in a 6DOF IMU. Part 1 presents a gyro model, Part 2 presents the complementary filter, and Part 3 presents the Kalman filter. Parts 4 through 6 show an example of implementation of the Kalman filter running on an Arduino with MPU-6050 IMU in real-time.},
+	urldate = {2020-11-23},
+	author = {Kelly, Don},
+	month = nov,
+	year = {2017},
+}
+
+@misc{aguirre_filtro_2019,
+	title = {Filtro de {Kalman} 1: {Combinando} {Medições}},
+	shorttitle = {Filtro de {Kalman} 1},
+	url = {https://www.youtube.com/watch?v=urhaoECmCQk},
+	abstract = {Este é o primeiro vídeo de uma série de vídeos sobre o Filtro de Kalman. A título de introdução, para estabelecer alguns conceitos importantes, o presente vídeo trata do problema de como combinar duas medidas (fusão de informação).},
+	urldate = {2020-11-23},
+	author = {Aguirre, Luis},
+	year = {2019},
+}
+
+@misc{brian_douglas_drone_2018,
+	title = {Drone {Control} and the {Complementary} {Filter}},
+	url = {https://www.youtube.com/watch?v=whSw42XddsU},
+	abstract = {Get the map of control theory: https://www.redbubble.com/shop/ap/550...
+	Download eBook on the fundamentals of control theory (in progress): https://engineeringmedia.com
+	
+	Let's talk about the complementary filter and how we can use it to estimate the attitude of a drone using an IMU. It is such a dead simple filter, which is a good reason to learn it, but it’s also practical because it produces nice results when blending measurements from two different sensors.  
+	
+	Check out my videos on Drone Simulation and Control: http://bit.ly/2OnlW5m
+	
+	Website - www.engineeringmediallc.com
+	Patreon - https://www.patreon.com/briandouglas
+	Twitter - @brianbdouglas
+	Email - controlsystemlectures@gmail.com
+	
+	Errata:
+	{\textasciitilde}2:23 - I state that the accelerometer is measuring the acceleration due to gravity, when in fact it's measuring the acceleration caused by the normal force from the ground.  So it's directly up and the exact opposite direction of gravity! Whereas, an accelerometer in free fall would measure no acceleration at all even though it would be accelerating.  So the "convert to angle" block would also take care of this sign flip.  
+	
+	Don't forget to subscribe! 
+	
+	If you have any questions on it leave them in the comment section below or on Twitter and I'll try my best to answer them. 
+	
+	I will be loading a new video whenever I can and welcome suggestions for new topics.  Please leave a comment or question below and I will do my best to address it.  Thanks for watching!},
+	urldate = {2020-11-23},
+	author = {{Brian Douglas}},
+	month = nov,
+	year = {2018},
+}
+
+@misc{matlab_understanding_2019,
+	title = {Understanding {Sensor} {Fusion} and {Tracking}, {Part} 2: {Fusing} a {Mag}, {Accel}, \& {Gyro} {Estimate}},
+	shorttitle = {Understanding {Sensor} {Fusion} and {Tracking}, {Part} 2},
+	url = {https://www.youtube.com/watch?v=0rlvvYgmTvI},
+	abstract = {Check out the other videos in this series: 
+	Part 1 - What Is Sensor Fusion?: https://youtu.be/6qV3YjFppuc
+	Part 2 - Fusing an Accel, Mag, and Gyro to Estimation Orientation: https://youtu.be/0rlvvYgmTvI
+	Part 3 - Fusing a GPS and IMU to Estimate Pose: https://youtu.be/hN8dL55rP5I
+	Part 4 - Tracking a Single Object With an IMM Filter: https://youtu.be/hJG08iWlres
+	Part 5 - How to Track Multiple Objects at Once: https://youtu.be/IIt1LHIHYc4
+	
+	This video describes how we can use a magnetometer, accelerometer, and a gyro to estimate an object’s orientation. The goal is to show how these sensors contribute to the solution, and to explain a few things to watch out for along the way.
+	
+	We’ll cover what orientation is and how we can determine orientation using an accelerometer and a magnetometer. We’ll also talk about calibrating a magnetometer for hard and soft iron sources and ways to deal with corrupting accelerations.
+	
+	We’ll also show a simple dead reckoning solution that uses the gyro on its own. Finally, we’ll cover the concept of blending the solutions from the three sensors.
+	
+	Check out these other references!
+	
+	Estimating Orientation Using Inertial Sensor Fusion and MPU-9250: https://bit.ly/2VK3Qju
+	Kalman Filter Tech Talks: https://bit.ly/2pnEA6a
+	Drone Control and the Complementary Filter: https://youtu.be/whSw42XddsU
+	Madgwick Filter: https://bit.ly/2pxMHgR
+	Mahony Filter: https://bit.ly/35FaXhs
+	Representing Attitude: http://citeseerx.ist.psu.edu/viewdoc/...
+	
+	--------------------------------------------------------------------------------------------------------
+	Get a free product trial: https://goo.gl/ZHFb5u
+	Learn more about MATLAB: https://goo.gl/8QV7ZZ
+	Learn more about Simulink: https://goo.gl/nqnbLe
+	See what's new in MATLAB and Simulink: https://goo.gl/pgGtod
+	
+	© 2019 The MathWorks, Inc. MATLAB and Simulink are registered
+	trademarks of The MathWorks, Inc. 
+	See www.mathworks.com/trademarks for a list of additional trademarks. Other product or brand names may be trademarks or registered trademarks of their respective holders.},
+	urldate = {2020-11-23},
+	author = {{MATLAB}},
+	year = {2019},
+}
+
+@misc{matlab_understanding_2019-1,
+	title = {Understanding {Sensor} {Fusion} and {Tracking}, {Part} 1: {What} {Is} {Sensor} {Fusion}?},
+	shorttitle = {Understanding {Sensor} {Fusion} and {Tracking}, {Part} 1},
+	url = {https://www.youtube.com/watch?v=6qV3YjFppuc},
+	abstract = {Check out the other videos in the series:
+	Part 2 - Fusing an Accel, Mag, and Gyro to Estimation Orientation: https://youtu.be/0rlvvYgmTvI
+	Part 3 - Fusing a GPS and IMU to Estimate Pose: https://youtu.be/hN8dL55rP5I
+	Part 4 - Tracking a Single Object With an IMM Filter: https://youtu.be/hJG08iWlres
+	Part 5 - How to Track Multiple Objects at Once: https://youtu.be/IIt1LHIHYc4
+	
+	This video provides an overview of what sensor fusion is and how it helps in the design of autonomous systems. It also covers a few scenarios that illustrate the various ways that sensor fusion can be implemented.
+	
+	Sensor fusion is a critical part of localization and positioning, as well as detection and object tracking. We’ll show that sensor fusion is more than just a Kalman filter; it is a whole range of algorithms that can blend data from multiple sources to get a better estimate of the system state. Four of the main benefits of sensor fusion are to improve measurement quality, reliability, and coverage, as well as be able to estimate states that aren’t measure directly. The fact that sensor fusion has this broad appeal across completely different types of autonomous systems is what makes it an interesting and rewarding topic to learn.
+	
+	Check out these other references!
+	Kalman Filter Tech Talk Series: https://bit.ly/2pnEA6a
+	
+	--------------------------------------------------------------------------------------------------------
+	Get a free product trial: https://goo.gl/ZHFb5u
+	Learn more about MATLAB: https://goo.gl/8QV7ZZ
+	Learn more about Simulink: https://goo.gl/nqnbLe
+	See what's new in MATLAB and Simulink: https://goo.gl/pgGtod
+	
+	© 2019 The MathWorks, Inc. MATLAB and Simulink are registered
+	trademarks of The MathWorks, Inc. 
+	See www.mathworks.com/trademarks for a list of additional trademarks. Other product or brand names may be trademarks or registered trademarks of their respective holders.},
+	urldate = {2020-11-23},
+	author = {{MATLAB}},
+	year = {2019},
+}
+
+@misc{embeddedroom_sensor_2018,
+	title = {Sensor {Fusion} {Algorithm} {For} {Attitude} {Estimation} {6DOF}},
+	url = {https://www.youtube.com/watch?v=RP7vkhDNNss},
+	abstract = {https://www.researchgate.net/publicat...
+	
+	https://github.com/ShowMeTheWay/Entry...},
+	urldate = {2020-11-23},
+	author = {{EmbeddedRoom}},
+	month = nov,
+	year = {2018},
+}
+
+@misc{scott_lobdell_how_2017,
+	title = {How to {Merge} {Accelerometer} with {GPS} to {Accurately} {Predict} {Position} and {Velocity}},
+	url = {https://www.youtube.com/watch?v=6M6wSLD-8M8},
+	abstract = {For additional resources on this topic check out http://ScottLobdell.me
+	
+	This video outlines how to take raw acceleration measurements in North, East, and down and merge them with GPS measurements along the same axes to produce more accurate and higher frequency sensor readings.},
+	urldate = {2020-11-23},
+	author = {{Scott Lobdell}},
+	month = mar,
+	year = {2017},
+}
+
+@article{ozyagcilar_calibrating_nodate,
+	title = {Calibrating an {eCompass} in the {Presence} of {Hard} and {Soft} {Iron} {Interference}},
+	language = {en},
+	author = {Ozyagcilar, Talat},
+	pages = {18},
+	file = {Ozyagcilar - Calibrating an eCompass in the Presence of Hard an.pdf:C\:\\Users\\victo\\Zotero\\storage\\SXHRS7T4\\Ozyagcilar - Calibrating an eCompass in the Presence of Hard an.pdf:application/pdf},
+}
+
+@misc{lobdell_how_nodate,
+	title = {How to {Implement} an {Inertial} {Measurement} {Unit} ({IMU}) {Using} an {Accelerometer}, {Gyro}, and {Magnetometer} - {YouTube}},
+	url = {https://www.youtube.com/watch?v=T9jXoG0QYIA},
+	abstract = {Um overview: Unidade de medição inercial usando acelerometro, giroscopio e magnetometro. 
+	O vídeo comenta um pouco sobre a calibragem do magnetometro.},
+	urldate = {2020-11-23},
+	author = {Lobdell, Scott},
+	file = {How to Implement an Inertial Measurement Unit (IMU) Using an Accelerometer, Gyro, and Magnetometer - YouTube:C\:\\Users\\victo\\Zotero\\storage\\4YHW3NXB\\watch.html:text/html},
+}
+
+@misc{woolfrey_rotation_2018,
+	title = {Rotation {Matrices} {2D}},
+	url = {https://www.youtube.com/watch?v=4srS0s1d9Yw},
+	abstract = {Rotação matricial em 2D, desenvolvimento matemático},
+	urldate = {2020-11-23},
+	author = {Woolfrey, Jon},
+	year = {2018},
+}
+
+@misc{eater_visualizing_nodate,
+	title = {Visualizing quaternions, an explorable video series},
+	url = {https://eater.net/quaternions},
+	abstract = {Explaining how quaternions, a four-dimensional number system, describe 3d rotation.},
+	language = {en},
+	urldate = {2020-11-23},
+	author = {Eater, Ben and Sanderson, Grant},
+	file = {Snapshot:C\:\\Users\\victo\\Zotero\\storage\\N7BIUI94\\quaternions.html:text/html},
+}
+
+@misc{mathoma_3d_2016,
+	title = {{3D} {Rotations} in {General}: {Rodrigues} {Rotation} {Formula} and {Quaternion} {Exponentials}},
+	shorttitle = {{3D} {Rotations} in {General}},
+	url = {https://www.youtube.com/watch?v=q-ESzg03mQc},
+	abstract = {In this video, we will discover how to rotate any vector through any axis by breaking up a vector into a parallel part and a perpendicular part. Then, we will use vector analysis (cross products and dot products) to derive the Rodrigues rotation formula and finish with a quaternion point of view. Using quaternions allows us to write a very compact formula which will be familiar to those who have used quaternions to do rotations.},
+	urldate = {2020-11-23},
+	author = {{Mathoma}},
+	month = jul,
+	year = {2016},
+}
+
+@misc{eater_visualizing_2018,
+	title = {Visualizing quaternions (4d numbers) with stereographic projection},
+	url = {https://www.youtube.com/watch?v=d4EgbgTm0Bg},
+	abstract = {How to think about this 4d number system in our 3d space.
+	Brought to you by you: http://3b1b.co/quaternion-thanks
+	Part 2: https://youtu.be/zjMuIxRvygQ
+	Interactive version of these visuals: http://3imaginary1real.com
+	
+	Quanta article on quaternions:
+	https://www.quantamagazine.org/the-st...
+	
+	The math of Alice in Wonderland:
+	https://www.newscientist.com/article/...
+	
+	------------------
+	
+	If you want to contribute translated subtitles or to help review those that have already been made by others and need approval, you can click the gear icon in the video and go to subtitles/cc, then "add subtitles/cc".  I really appreciate those who do this, as it helps make the lessons accessible to more people.
+	
+	Music by Vincent Rubinetti:
+	https://vincerubinetti.bandcamp.com/a...
+	
+	------------------
+	
+	3blue1brown is a channel about animating math, in all senses of the word animate.  And you know the drill with YouTube, if you want to stay posted on new videos, subscribe: http://3b1b.co/subscribe
+	
+	Various social media stuffs:
+	Website: https://www.3blue1brown.com
+	Twitter: https://twitter.com/3blue1brown
+	Reddit: https://www.reddit.com/r/3blue1brown
+	Instagram: https://www.instagram.com/3blue1brown...
+	Patreon: https://patreon.com/3blue1brown
+	Facebook: https://www.facebook.com/3blue1brown},
+	urldate = {2020-11-23},
+	author = {Eater, Ben},
+	year = {2018},
+}
+
+@misc{eater_quaternions_2018,
+	title = {Quaternions and 3d rotation, explained interactively},
+	url = {https://www.youtube.com/watch?v=zjMuIxRvygQ},
+	abstract = {Go experience the explorable videos: https://eater.net/quaternions
+	Ben Eater's channel: https://www.youtube.com/user/eaterbc
+	Brought to you by you: http://3b1b.co/quaternion-explorable-...
+	
+	Previous video on Quaternions:
+	https://youtu.be/d4EgbgTm0Bg
+	
+	Nice explanation of Gimbal Lock:
+	https://youtu.be/zc8b2Jo7mno
+	
+	Great videos comparing Euler angles and quaternions, from the perspective of an animator:
+	https://youtu.be/syQnn\_xuB8U
+	https://youtu.be/4mXL751ko0w
+	
+	Music by Vincent Rubinetti:
+	https://vincerubinetti.bandcamp.com/a...
+	
+	------------------
+	
+	3blue1brown is a channel about animating math, in all senses of the word animate.  And you know the drill with YouTube, if you want to stay posted on new videos, subscribe: http://3b1b.co/subscribe
+	
+	Various social media stuffs:
+	Website: https://www.3blue1brown.com
+	Twitter: https://twitter.com/3blue1brown
+	Reddit: https://www.reddit.com/r/3blue1brown
+	Instagram: https://www.instagram.com/3blue1brown...
+	Patreon: https://patreon.com/3blue1brown
+	Facebook: https://www.facebook.com/3blue1brown},
+	urldate = {2020-11-23},
+	author = {Eater, Ben},
+	year = {2018},
+}
+
+@misc{aerial_robotics_euler_2017,
+	title = {Euler {Angles}   {University} of {Pennsylvania}   {Coursera}},
+	url = {https://www.youtube.com/watch?v=3Zjf95Jw2UE},
+	urldate = {2020-11-23},
+	author = {{AERIAL ROBOTICS}},
+	month = mar,
+	year = {2017},
+}
+
+@misc{mathoma_quaternions_2016,
+	title = {Quaternions {Explained} {Briefly}},
+	url = {https://www.youtube.com/watch?v=jlskQDR8-bY},
+	abstract = {This is a video I have been wanting to make for some time, in which I discuss what the quaternions are, as mathematical objects, and how we do calculations with them. In particular, we will see how the fundamental equation of the quaternions i{\textasciicircum}2=j{\textasciicircum}2=k{\textasciicircum}2=ijk=-1 easily generates the rule for quaternion multiplication. For the sake of brevity, I don't cover the famous application to 3D rotations in this video (perhaps in a subsequent one) but, of course, one must first know how to multiply two quaternions before talking about specific applications.},
+	urldate = {2020-11-23},
+	author = {{Mathoma}},
+	month = jun,
+	year = {2016},
+}
